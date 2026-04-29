@@ -1,9 +1,4 @@
-import axios from "axios";
-
-const API = axios.create({
-    baseURL: "http://localhost:3000/api",
-    withCredentials: true
-});
+import API from "../../../api/axios";
 
 export const createInterview = async (formData) => {
     try {
