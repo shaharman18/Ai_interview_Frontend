@@ -1,5 +1,5 @@
 import { useContext, useCallback } from 'react';
-import InterviewContext from '../Interview.context';
+import InterviewContext from '../interview.context';
 import { getInterview as fetchInterviewApi, createInterview as createInterviewApi, getAllInterviews as fetchAllInterviewsApi, tailorResume as tailorResumeApi, deleteInterview as deleteInterviewApi } from '../services/interview.api';
 
 const useInterview = () => {
